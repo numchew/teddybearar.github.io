@@ -9,7 +9,7 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Pokèmon',
+            name: 'Location1',
             location: {
                 // decomment the following and add coordinates:
                 // lat: <your-latitude>,
@@ -18,6 +18,13 @@ function staticLoadPlaces() {
                 lng: 100.5156104, */
                  lat: 13.737445,
                  lng: 100.516367,
+            },
+        },
+        {
+            name: 'Location2 G-Map',
+            location: {
+                 lat: 13.737529,
+                 lng: 100.5142853,
             },
         },
     ];
